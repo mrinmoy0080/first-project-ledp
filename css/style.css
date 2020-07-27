@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: #007ACC;
+}
+.nav a{
+    color: black;
+}
+
+
+
+ul{
+    list-style-type: none;
+    display: inline;
+}
+li{
+    display: inline-block;
+    float: right;
+    font-size: 30px; 
+    padding: 15px;
+    margin-top: 8px;
+}
+li:hover{
+    color:black;
+    background-color: rgb(245, 238, 238);
+    opacity: 0.5;
+}
+
+.sec1 h2{
+
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    
+}
+.cont1{
+    padding-top: 170px;
+    margin-left: 120px;
+   
+  
+}
+.btn1{
+    background-color:blue;
+    color:white;
+    border: 1px solid rgb(231, 228, 228);
+    border-radius: 10px;
+    margin-top: -40px;
+    height: 30px;
+    font-size: 15px;
+}
+.btn1:hover{
+    background-color: rgb(177, 174, 174);
+    color:black;
+    cursor: progress;
+}
+.sec1{
+    background-image: url('https://images.ctfassets.net/usf1vwtuqyxm/2n8JnRmzLJdYzM4SoIzVLL/3dea9275b3be7b5aef314aeb89d7616a/release_1_hagrids_hut__1_.png?fm=jpg');
+    height:500px;
+    background-attachment: fixed;
+    color:white;
+}
+
+.overlay{
+    background-color: black;
+    height: 500px;
+    opacity: 0.6;
+}
+.sec2{
+    background-color:#007ACC ;
+    color: white;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+}
+.btn2{
+    background-color: transparent;
+    border: 1px solid white;
+    height:30px;
+    width: 80px;
+    font-size: 20px;
+    color:white;
+    
+}
+.btn2:hover{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+}
+.btn3{
+    height: 30px;
+    width: 130;
+    background-color: #0579C9;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    border:1px transparent;
+    border-radius: 5px;
+}
+.btn3:hover{
+    background-color: wheat;
+    color:black;
+    cursor:wait;
+}
+.btn4{
+    height: 30px;
+    width: 130;
+    background-color: #0579C9;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: white;
+    border:1px transparent;
+    border-radius: 5px;
+}
+.btn4:hover{
+    background-color: wheat;
+    color:black;
+    cursor:wait;
+}
+.sec3{
+    background-color: #004A99;
+    height: 150px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.sec3 a{
+    color: tomato;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
